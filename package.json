@@ -4,6 +4,7 @@
   "dependencies": {
     "@rails/webpacker": "^3.2.0",
     "actioncable": "^5.2.2",
+    "activestorage": "^5.2.2",
     "coffeescript": "1.12.7",
     "normalize.css": "^7.0.0",
     "postcss-smart-import": "^0.7.6",
