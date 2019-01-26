@@ -1,6 +1,6 @@
 .page {
   height: 100vh;
-  width: 700px;
+  width: 100vw;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -10,5 +10,21 @@
   align-items: center;
   justify-content: center;
   padding-top: 30px;
-  margin-bottom: -130px;
+  margin-bottom: -150px;
+}
+
+.header-container {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+  margin-bottom: -150px;
+}
+
+.avatar-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
