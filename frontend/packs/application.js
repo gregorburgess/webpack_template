@@ -6,9 +6,15 @@
 //
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
+
+import Turbolinks from "turbolinks";
+import Rails from "rails-ujs";
 import "init";
 import "components/page/page";
 import "components/auth-form/auth-form";
 import "components/chat/chat";
+
+Turbolinks.start();
+Rails.start();
 
 console.log("Hello World from Webpacker");
